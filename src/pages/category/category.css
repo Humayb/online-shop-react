@@ -1,0 +1,37 @@
+h2 {
+  margin: 56px 0px 48px 0 !important;
+}
+
+.category {
+  padding: 0 100px;
+}
+.category-items {
+  width: 140px;
+  height: 140px;
+  border-radius: 20px;
+  background-color: #d4beff;
+  margin: 24px 33px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.153);
+  position: relative;
+}
+.category-items img {
+  position: absolute;
+  top: -30px;
+  left: 10px;
+}
+.category-items h3 {
+  position: inherit;
+  display: flex;
+  top: 95px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 540px) {
+  .category {
+    padding: 0;
+  }
+  .category-items {
+    margin: 24px 22px;
+  }
+}/*# sourceMappingURL=category.css.map */

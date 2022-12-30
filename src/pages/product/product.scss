@@ -1,0 +1,120 @@
+
+.product{
+    margin: 56px 10px;
+
+    .menu{
+        &-items{
+            li{
+                a{
+                    color: #404040;
+
+                    &:hover{
+                        color:#0099c9 !important;
+                        font-weight: heavy  !important;
+                    }
+                    &:active{
+                        color: #0099c9;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .MenuVertical{
+        padding: 20px 0;
+        font-size: 14px;
+
+        // .Right-list{
+        //     ul{
+        //         li:nth-of-type(5){
+        //             margin-top: 56px;
+        //             a{
+        //                 color: #0099c9 !important;
+        //             }
+        //         }
+        //     }
+        // }
+
+
+        .slider{
+            button{
+                display: none;
+            }
+
+            // .slick-dots{
+            //     margin-top: 8px;
+            // }
+
+
+            .slider-items{
+                width: 228px !important;
+                height: 270px;
+                border-radius: 25px;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.357);
+                margin: 8px 0;
+                cursor: pointer;
+
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 25px;
+                    object-fit: cover;
+                }
+            
+            }
+
+        }
+    }
+}
+
+
+@media only screen and (max-width: 540px){
+    .list-tab{
+        padding: 0;
+
+        // .Right-list{
+        //     ul{
+        //         li:nth-of-type(5){
+        //             margin-top: 48px;
+
+        //         }
+        //     }
+        // }
+    }
+
+    
+.slider{
+
+    // .slick-dots{
+    //     margin-top: 4px;
+    // }
+
+
+    .slider-items{
+        width: 57px !important;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.357);
+        margin: 4px 0;
+
+        .slide-more{
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+    
+    }
+}
+}

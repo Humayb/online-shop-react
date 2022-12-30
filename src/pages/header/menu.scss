@@ -1,0 +1,41 @@
+a{
+    font-family: YekanBakh;
+    font-size: 14px;
+    font-weight: heavy;
+    color: #707070 !important;
+
+    
+    &:hover{
+        color: #6637c2 !important;
+    }
+}
+
+.navbar{
+    
+    &-collapse{
+        span{
+            button{
+                background-color: #0099c9;
+                font-size: 12px;
+                margin:0 4px;
+                
+                &:hover{
+                    background-color: #6637c2 !important;
+                }
+            }
+
+            
+            .shop{
+                font-size: 28px ;
+                font-weight: bold;
+                color: #0099c9 !important;
+
+
+                &:hover{
+                    color: #6637c2 !important;
+                }
+            }
+        }
+
+    }
+}

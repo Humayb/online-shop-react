@@ -1,0 +1,32 @@
+.footer {
+  background-color: #6637c2;
+  border-radius: 10px;
+  color: #fcfcfc !important;
+}
+.footer h3 {
+  color: #fffcab;
+  font-weight: heavy;
+}
+.footer .footer-right ul li a {
+  color: #fcfcfc !important;
+  font-weight: bold;
+}
+.footer .footer-left {
+  align-content: flex-start;
+}
+.footer .footer-left .social .icon {
+  font-size: 32px;
+}
+.footer .footer-left .social .icon:hover {
+  color: #51d4fc !important;
+}
+
+li {
+  margin: 4px 0;
+}
+
+@media only screen and (max-width: 540px) {
+  .footer {
+    padding: 32px;
+  }
+}/*# sourceMappingURL=footer.css.map */
